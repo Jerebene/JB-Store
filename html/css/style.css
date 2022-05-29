@@ -187,7 +187,7 @@ color: white;}
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .7);
    grid-template-columns: 50% 50%;
    grid-template-rows: auto auto auto; 
-   border: 1px solid white;
+   /* border: 1px solid white; */
 }
 .footer p, h1 {
     color: white;
@@ -210,9 +210,8 @@ color: white;}
     height: 30px;
 }
 
-.redes, .contacto, .copyright, .logos-footer {
-    border: 1px solid white;
-}
+/* .redes, .contacto, .copyright, .logos-footer {
+     border: 1px solid white;} */
 
 .copyright {
     grid-column: 1 / 3;
@@ -282,6 +281,14 @@ color: white;}
         border-bottom: 3px solid #3a3636;
     }
 
+    .lista-categorias li a {
+        display: block;
+    }
+
+    .item-categoria:hover {
+        color: red;
+    }
+
 /* SKINS TIENDA ----------------------------- */
 
 .lista-skins {
@@ -335,20 +342,16 @@ color: white;}
     color: rgba(255, 255, 255, 0.897);
 }
 
-
-
-
-
-
-
-
+/* BOTON ORDENAR X DEFECTO - TIENDA  --------------------*/
 
 .nav-filtro {
-    max-width: 900px;
+    max-width: 160px;
     margin: auto;
     background-color: #333;
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 10px;
+    border-radius: 20px;
+    margin-right: 66.9%; 
+    margin-bottom: 20px;
 }
 
 .filtro-defecto {
@@ -366,6 +369,7 @@ color: white;}
 
 .filtro-defecto > li:hover {
     background-color: red;
+    border-radius: 10px;
 }
 
 .menu-vertical-tienda {
