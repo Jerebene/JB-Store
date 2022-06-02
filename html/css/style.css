@@ -241,6 +241,9 @@ color: white;}
 
 .skin-inicio img:hover {
     transform: scale(1.2); 
+}
+
+.skin-inicio img {
     transition: all 1s ease;
 }
 
