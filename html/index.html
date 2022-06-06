@@ -12,50 +12,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<div>
-    <a href="img
-    "></a>
-</div>
-
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav" style="justify-content:space-around;">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="tienda.html">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="vender.html">Vender</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Pistolas</a></li>
-                  <li><a class="dropdown-item" href="#">Escopetas</a></li>
-                  <li><a class="dropdown-item" href="#">Subfusiles</a></li>
-                  <li><a class="dropdown-item" href="#">Rifles</a></li>
-                  <li><a class="dropdown-item" href="#">Guantes</a></li>
-                  <li><a class="dropdown-item" href="#">Cuchillos</a></li>
-
-                </ul>
-              </li>
+    <header class="menu-conteiner">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <nav>
+            <ul class="lista-uno">
+                <li><a class="Inicio" href="index.html">Inicio</a></li>
+                    <li><a class="Comprar" href="tienda.html">Tienda</a></li>
+                    <li><a class="Vender" href="vender.html">Vender</a></li>
+                    <li><a class="Medios" href="#">Medios de pago</a></li>
+                    <li><a class="Contacto" href="contacto.html">Contacto</a></li>
             </ul>
-          </div>
-        </div>
-      </nav> 
+        </nav>
+    </header>  
 
     <main>
 
@@ -65,11 +34,11 @@
                 <p class="parrafo-uno">La skin que siempre soñaste la encontras acá. Al mejor precio</p>
             </div>
 
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -206,97 +175,16 @@
                   </div>
                 </div>
                 <div>
-                    
-                </div>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
             
-            <!-- <div class="lista-skins-inicio">
-                <a href="./skins/AK47-Legión-de-Anubis.html">
-                    <div class="skin-inicio">
-                        <img src="img/ak47.png" alt="">
-                        <p>AK47 | Legión de Anubis</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/M4A4-Emperador.html">
-                    <div class="skin-inicio">
-                        <img src="img/m4a4.png" alt="">
-                        <p>M4A4 | Emperador</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/USP-S-Muerte-confirmada.html">
-                    <div class="skin-inicio">
-                        <img src="img/usp.png" alt="">
-                        <p>USP | Muerte confirmada</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/AWP-Hiperbestia.html">
-                    <div class="skin-inicio">
-                        <img src="img/awp.png" alt="">
-                        <p>AWP | Hiperbestia</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/Glock-18-Esmeralda.html">
-                    <div class="skin-inicio">
-                        <img src="img/glock.png" alt="">
-                        <p>Glock-18 | Esmeralda</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/Cuchillo-talón.html">
-                    <div class="skin-inicio">
-                        <img src="img/talon.png" alt="">
-                        <p>Cuchillo talón</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/Cuchillo-de-supervivencia-Tela-escarlata.html">
-                    <div class="skin-inicio">
-                        <img src="img/crimson.png" alt="">
-                        <p>Cuchillo de supervivencia | Tela escarlata</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/Guantes-de-especialista-Kimono-carmesí.html">
-                    <div class="skin-inicio">
-                        <img src="img/guantes.png" alt="">
-                        <p>Guantes de especialista | Kimono carmesí</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/MAC-10-Acechador.html">
-                    <div class="skin-inicio">
-                        <img src="img/mac.png" alt="">
-                        <p>MAC-10 |</p>
-                        <p>Acechador</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-                <a href="./skins/AK47-Legión-de-Anubis.html">
-                    <div class="skin-inicio">
-                        <img src="img/ak47.png" alt="">
-                        <p>AK47 | Legión de Anubis</p>
-                        <p>(Factory New)</p>
-                        <p>$2500</p>
-                    </div>
-                </a>
-
-            </div> -->
             <a class="vercatalogo" href="tienda.html">Ver Catalogo</a>
         </section>
 
@@ -381,13 +269,6 @@
             </div>
         </section>
 
-        <!-- <section class="section-tres" id="medios-de-pago">
-            <div>
-                <h2 class="titulo-cuatro">Medios de pago</h2>
-                <img src="img/medios de pago.jpg" alt="Medios de pago">
-            </div>
-        </section> -->
-
         <section class="section-cuatro">
             <h2 class="titulo-tres">
                 Nuestros clientes
@@ -439,32 +320,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="redes">
-                <h1>Seguinos</h1>
-            </div>
-            <div class="contacto">
-                <h1>Contactanos
-                </h1>
-                <ul>
-                    <li class="contacto-uno"><p>Buenos Aires</p></li>
-                    <li class="contacto-dos"><p>+54 11 3476 5138</p></li>
-                    <li class="contacto-tres"><p>JBStore@gmail.com</p></li>
-                </ul>
-            </div>
-            <nav> 
-                <ul class="logos-footer">
-                    <li class="logo-footer-uno"><a href="https://www.instagram.com/jbstore.csgo/"><img src="img/instagram.png" alt="Instagram"></a></li>
-                         <li class="logo-footer-dos"><a href="https://twitter.com/"><img src="img/twitter.png" alt="Twitter"></a></li>
-                             <li class="logo-footer-tres"><a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a></li>
-                                 <li class="logo-footer-cuatro"><a href="https://steamcommunity.com/profiles/76561198187633926/"><img src="img/steam.png" alt="Steam"></a></li>
-                </ul>
-            </nav>
-            <div class="copyright">
-                <p>
-                    Copyright © 2022 JB Store CSGO, Todos los derechos reservados
-                </p>
-            </div> -->
         </section>
     </footer>
    
