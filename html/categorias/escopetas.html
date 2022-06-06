@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escopetas</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -23,9 +27,9 @@
     <div class="tienda">
         <h1>Tienda</h1>
         <nav class="nav-filtro">
-            <ul class="filtro-defecto">
+            <ul class="filtro-defecto" style="padding-left: 0;">
                 <li><a href="#">Ordenar por defecto</a>
-                    <ul class="menu-vertical-tienda">
+                    <ul class="menu-vertical-tienda" style="padding-left: 0;">
                         <li><a href="#">Ordenar por popularidad</a></li>
                         <li><a href="#">Precio: bajo a alto</a></li>
                         <li><a href="#">Precio: alto a bajo</a></li>
@@ -46,9 +50,20 @@
                 <a href="./guantes.html" class="item-categoria">Guantes</a>
             </div>
             <section class="lista-skins">
+                <a href="./skins/AK47-Legión-de-Anubis.html">
+                    <div class="skin">
+                        <img src="../img/ak47c.png" alt="">
+                        <p>AK47 | Legión de Anubis</p>
+                        <p>(Factory New)</p>
+                        <p>$2500</p>
+                    </div>
+                </a>
                 
             </section>
         </div>
     </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
