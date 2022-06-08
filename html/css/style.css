@@ -802,8 +802,10 @@ color: white;}
         width: auto;
     }
 
-    .copy {
-        background-color: red;
+    .copyright {
+        font-size: 0.6em;
+        margin: 40px 0px 0px 25px;
+        width: 300px;
     }
 
     /* ------------------ */
@@ -818,6 +820,6 @@ color: white;}
     .prim-fila img {
         width: 250px;
         height: 63px;
-        text-align: center;
+        
     }
 }
