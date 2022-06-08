@@ -12,8 +12,8 @@ body {
 }
 
 .logo {float: left;
-     width: 60px;
-     height: 60px;
+     width: 80px;
+     height: 80px;
      border-radius: 207px;
      margin-top: 3px;
      margin-left: 5px;
@@ -21,15 +21,15 @@ body {
 
 .menu-conteiner img:hover {
     border: 1px solid rgb(255, 0, 0);
-    transform:  rotate(360deg);
 }
 
 .vercatalogo {
     color: white;
-    margin-left: 1050px;
+    margin-left: 70%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    width: 11%;
 } 
 
 /* ANIMACION "VER CATALOGO" */
@@ -37,6 +37,8 @@ body {
 .vercatalogo:hover {
     color: red;
 }
+
+/* -----------------------  */
 
 .menu-conteiner {
     background-color: rgb(18, 18, 19);
@@ -50,7 +52,7 @@ ul {list-style-type: none;
 text-align: center;}
 a {text-decoration: none;
 font-size: 1.4em;
-color: black;}
+color: white;}
 
 /* INICIO ------------------ */
 
@@ -61,6 +63,11 @@ color: black;}
     padding: 20px 120px;
     display: flex;
     justify-content: space-around;}
+
+.parrafo-uno {
+    font-size: 2.3em;
+    color: #cac1c1;
+}    
 
  /* ANIMACION EN NAVVAR --------------- */
 
@@ -143,25 +150,9 @@ padding: 40px;}
 .titulo-dos, .titulo-tres, .titulo-cuatro {font-size: 2.5em;
 color: white;}
 
-.section-uno {
-    color: white;
-}
-.section-dos {
-    border: 1px solid white;
-    padding: 50px;}
-.section-tres {
+.section-clientes {
     text-align: center;
-    border: 1px solid white;
-    padding: 50px;}
-.section-cuatro {
-    text-align: center;
-    border: 1px solid white;
-    padding: 50px;}      
-.parrafo-uno {
-    font-size: 2.3em;
-    color: #cac1c1;
-
-}
+    padding: 50px;}    
     
 .parrafo-dos {
     font-size: 2em;
@@ -185,30 +176,12 @@ color: white;}
     margin-left: 5%;
 }
 
-/* .lista-skins-inicio {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 17% 17% 17% 17% 17%;
-    grid-template-rows: auto auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    justify-content: center;
-    margin-right: 5%; 
-} */
-
 .skin-inicio { 
     box-shadow: 0 0 20px 0 rgba(46, 45, 45, 0.2);
     margin-top: 20px;
     margin-left: 20px;
-    width: 100%;
+    width: auto;
     height: 20%;
-
-}
-
-
-.skin-inicio a img {
-    width: 175px;
-    height: 125px;
 }
 
 .skin-inicio img {
@@ -216,8 +189,6 @@ color: white;}
     height: 125px;
     margin-left: 50px;
 }
-
-
 
 .skin-inicio p {
     color: white;
@@ -228,17 +199,7 @@ color: white;}
     text-decoration: none;
 }
 
-.lista-skins-inicio a div p {
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 0.7em;
-    text-decoration: none;
-}
-
-
-/* ANIMACION SKINS TIENDA */
+/* ANIMACION SKINS INICIO */
 
 .skin-inicio img:hover {
     transform: scale(1.2); 
@@ -248,14 +209,14 @@ color: white;}
     transition: all 1s ease;
 }
 
+/* ----------------------- */
 
-/* INFOOOOO ----------------------- */
+/* INFOOOOO */
 
 .inf-conteiner div p {
     color: white;
     margin-top: 10px;
     width: 100%;
-    
 }
 
 .section-info {
@@ -278,38 +239,9 @@ color: white;}
     margin-left: 5%;
 }
 
-/* .section-dos-conteiner {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.4%;
-    grid-template-rows: auto auto auto;
-}
+/* ------------------------------------ */
 
-.section-dos-conteiner div p {
-    color: white;
-    font-size: 1.5em;
-    text-align: left;
-    margin: 1em;
-}
-
-.img-fondo {
-    width: 100%;
-    height: 100%;
-}
-
-.fondo-conteiner-uno, .fondo-conteiner-dos, .fondo-conteiner-tres, .fondo-conteiner-cuatro, .fondo-conteiner-cinco, .fondo-conteiner-seis, .fondo-conteiner-siete {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .2);
-    margin: 10px;
- }
-
-.fondo-conteiner-dos {
-    grid-column: 2 / 4;}
-
-.fondo-conteiner-seis {
-    grid-column: 1 / 3;
-} */
-
-/* Medios de pago ------------------ */
+/* MEDIOS DE PAGO */
 
 .section-medios {
     margin: 70px;
@@ -354,7 +286,23 @@ color: white;}
     margin-left: 5%;
 }
 
-/* FOOTER -------------------------- */
+/* --------------------- */
+
+/* CLIENTES */
+
+.section-clientes h2 {
+    margin-top: 40px;
+    color: white;
+}
+
+.clientes img {
+    width: 350px; 
+    height: 200px;
+}
+
+/* ------------------------- */
+
+/* FOOTER */
 
 .container {
     margin: 20px;
@@ -420,6 +368,8 @@ color: white;}
     color: white;
 }
 
+/* ------------------------ */
+
 /* TIENDA -------------------------- */
 
 .body-tienda {
@@ -457,7 +407,6 @@ color: white;}
     display: flex;
     flex-direction: column;
     width: 15%;
-    /* background: lightblue; */
     margin-right: 40px;
 }
 
@@ -486,7 +435,9 @@ color: white;}
         color: red;
     }
 
-/* SKINS TIENDA ----------------------------- */
+ /* --------------------------- */
+
+/* SKINS TIENDA */
 
 .lista-skins {
     width: 80%;
@@ -500,10 +451,8 @@ color: white;}
 
 .lista-skins .skin {
     width: auto;
-    
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .2);
-
 }
 
 .lista-skins .skin img {
@@ -521,7 +470,6 @@ color: white;}
     font-size: 0.7em;
     color: white;
     margin: 5px 0px;
-    
 }
 
 .skin {
@@ -552,7 +500,9 @@ color: white;}
     width: 100%;
 }
 
-/* BOTON ORDENAR X DEFECTO - TIENDA  --------------------*/
+/* -------------------------- */
+
+/* BOTON ORDENAR X DEFECTO - TIENDA*/
 
 .nav-filtro {
     width: 200px;
@@ -607,8 +557,9 @@ color: white;}
     text-align: left;
 }
 
+/* ------------------------------- */
 
-/* CONTACTO ----------------------------------- */
+/* CONTACTO */
 
 .titulo-contacto h1 {
     color: rgb(211, 197, 197);
@@ -719,21 +670,154 @@ color: white;}
     width: 100px;
     height: 100px;
     border-radius: 207px;
-}    
+}   
 
 
+/* VENDER */
 
-
-
-
-
-
-/* BOOSTRAP ------------- */
-
-.navbar-brand img {
-    height: 40px;
-    width: 40px;
+.main-vender {
+    margin: 20px 100px;
 }
 
+.titulo-vender {
+    text-align: center;
+}
 
+.texto-vender-uno, .texto-vender, .texto-vender {
+    font-size: 1.4em;
+    color: white;
+}
 
+.prim-fila, .seg-fila {
+    margin: 40px 0px;
+}
+
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 376px) {
+
+    /* NAV E INICIO */
+
+    .body-inicio h2 {
+        font-size: 1.2em;
+    }
+
+    .lista-uno {
+   width: 100%;
+}
+    .logo {
+    width: 50px;
+    height: 50px; 
+    }
+     
+    .skin-inicio img {
+        width: 90px;
+        height: 50px;
+        margin-left: 35px;
+    }
+    
+    .skin-inicio p {
+        font-size: 0.5em;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .skin-inicio { 
+        margin: 20px 0px 0px 0px;
+    }
+
+    .vercatalogo {
+        font-size: 0.6em;
+        width: 16%;
+        margin: 10px 0px 0px 270px;
+        border-bottom: 0.5px solid rgba(255, 0, 0, 0.4);
+        border-radius: 20%;
+    }
+
+    /* ------------------------ */
+
+    /* INFO */
+
+    .inf-conteiner {
+        text-align: center;
+    }
+
+     .inf-conteiner div p {
+        font-size: 0.6em;
+    }
+
+    .inf-conteiner div img {
+       width: 200px;
+       height: 112px;
+    } 
+
+    .fondo-conteiner-tres, .fondo-conteiner-cinco {
+        display: none;
+    }
+
+    /* --------------------- */
+
+    /* MEDIOS */
+
+    .section-medios div img {
+        width: 80px;
+         height: 80px;
+    }
+
+    .medio-uno, .medio-dos, .medio-tres, .medio-cuatro, .medio-cinco {
+        margin: 0px;  
+    }
+
+    /* ------------------ */
+
+    /* CLIENTES */
+
+    .clientes img {
+        width: 300px; 
+        height: 300px;   
+    }  
+
+    .section-clientes {
+        text-align: center;
+    }
+
+    /* ----------------- */
+
+    /* FOOTER */
+
+    .logos-footer {
+        margin: 0px 60px 0px 0px;
+        
+    }
+
+    .redes {
+        margin: 0px 0px 0px 110px;
+    }
+
+    .contacto-uno, .contacto-dos, .contacto-tres {
+        margin: 0px 50px 0px 0px;
+        width: auto;
+    }
+
+    .copy {
+        background-color: red;
+    }
+
+    /* ------------------ */
+
+    /* VENDER */
+
+    .texto-vender-uno, .texto-vender, .texto-vender {
+        font-size: 0.7em;
+        color: white;
+    }
+
+    .prim-fila img {
+        width: 250px;
+        height: 63px;
+        text-align: center;
+    }
+}
