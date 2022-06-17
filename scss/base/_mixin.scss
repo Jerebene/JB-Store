@@ -1,0 +1,20 @@
+@mixin flex($display, $alineacion) {
+    display: $display;
+    justify-content: $alineacion;
+}
+
+@mixin texto($f-size, $color) {
+    font-size: $f-size;
+    color: $color;
+}
+
+@mixin flex-dos($display, $f-direction, $t-align) {
+    display: $display;
+    flex-direction: $f-direction; 
+    text-align: $t-align;
+}
+
+@mixin w-h($w, $h) {
+    width: $w;
+    height: $h;
+}

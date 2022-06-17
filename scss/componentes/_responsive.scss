@@ -1,0 +1,120 @@
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 376px) {
+	.body-inicio {
+		h2 {
+			font-size: 1.2em;
+		}
+	}
+	.lista-uno {
+		width: 100%;
+	}
+	.logo {
+		width: 50px;
+		height: 50px;
+	}
+	.skin-inicio {
+		img {
+			width: 90px;
+			height: 50px;
+			margin-left: 35px;
+		}
+		p {
+			font-size: 0.5em;
+			margin: 0px 0px 0px 10px;
+		}
+		margin: 20px 0px 0px 0px;
+	}
+	.carousel-indicators {
+		display: none;
+	}
+	.vercatalogo {
+		font-size: 0.6em;
+		width: 16%;
+		margin: 10px 0px 0px 270px;
+		border-bottom: 0.5px solid rgba(255, 0, 0, 0.4);
+		border-radius: 20%;
+	}
+	.inf-conteiner {
+		text-align: center;
+		div {
+			p {
+				font-size: 0.6em;
+			}
+			img {
+				width: 200px;
+				height: 112px;
+			}
+		}
+	}
+	.fondo-conteiner-tres {
+		display: none;
+	}
+	.fondo-conteiner-cinco {
+		display: none;
+	}
+	.section-medios {
+		div {
+			img {
+				width: 80px;
+				height: 80px;
+			}
+		}
+	}
+	.medio-uno {
+		margin: 0px;
+	}
+	.medio-dos {
+		margin: 0px;
+	}
+	.medio-tres {
+		margin: 0px;
+	}
+	.medio-cuatro {
+		margin: 0px;
+	}
+	.medio-cinco {
+		margin: 0px;
+	}
+	.clientes {
+		img {
+			width: 300px;
+			height: 300px;
+		}
+	}
+	.section-clientes {
+		text-align: center;
+	}
+	.logos-footer {
+		margin: 0px 60px 0px 0px;
+	}
+	.redes {
+		margin: 0px 0px 0px 110px;
+	}
+
+
+	
+
+	.copyright {
+		font-size: 0.6em;
+		margin: 40px 0px 0px 25px;
+		width: 300px;
+	}
+	.texto-vender-uno {
+		font-size: 0.7em;
+		color: white;
+	}
+	.texto-vender {
+		font-size: 0.7em;
+		font-size: 0.7em;
+		color: white;
+		color: white;
+	}
+	.prim-fila {
+		img {
+			width: 250px;
+			height: 63px;
+		}
+	}
+}
+
+/* ----------------- */
