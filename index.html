@@ -21,26 +21,26 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="body-inicio">
     <header class="menu-conteiner">
-        <a href="index.html"><img class="logo" src="img/logo.webp" alt="logo"></a>
-        <nav class="navbar navbar-expand-lg " >
-            <div class="container-fluid" style="background-color: rgb(18, 18, 19); width: 95.5%; margin: 0px ;">
-                <button class="navbar-toggler bg-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse lista-uno navbar-nav" id="navbarNavAltMarkup" style="width: 100%;">
-                    <li><a class="Inicio text-white"  href="index.html">Inicio</a></li>
-                    <li><a class="Comprar text-white" href="tienda.html">Tienda</a></li>
-                    <li><a class="Vender text-white" href="vender.html">Vender</a></li>
-                    <li><a class="Medios text-white" href="#">Medios de pago</a></li>
-                    <li><a class="Contacto text-light" href="contacto.html">Contacto</a></li>
-                </div>
+        <nav class="navbar navbar-expand-sm">
+            <a href="index.html"><img class="logo" src="img/logo.webp" alt="logo"></a>
+            <button class="navbar-toggler bg-white"  type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse lista-uno" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li><a class="Inicio"  href="index.html">Inicio</a></li>
+                    <li><a class="Comprar" href="tienda.html">Tienda</a></li>
+                    <li><a class="Vender" href="vender.html">Vender</a></li>
+                    <li><a class="Medios" href="#">Medios de pago</a></li>
+                    <li><a class="Contacto" href="contacto.html">Contacto</a></li>
+              </ul>
             </div>
-        </nav>
+          </nav>
     </header>  
 
     <main>
@@ -295,9 +295,9 @@
                   </div>
                 </div>
                 <div class="row copy text-center">
-                    <div class="col-1 col-md-12">
+                    <div class="col-12">
                         <div class="copyright">
-                            <p>
+                            <p class="copyr">
                                 Copyright © 2022 JB Store CSGO, Todos los derechos reservados
                             </p>
                         </div>
