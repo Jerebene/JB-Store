@@ -287,6 +287,22 @@
 	}
 }
 
+.section-clientes {
+	h2 {
+		display: flex;
+			flex-direction: column;
+			text-align: center;
+			margin: 40px 0px;
+			color: white;
+			&::after {
+				content: '';
+				@include w-h(90%, 1px);
+				background: #c7c7c7af;
+				margin: 20px 0px;
+				margin-left: 5%;
+			}
+	}
+}
 /* FOOTER */
 h2 {
 	color: white;
@@ -324,7 +340,6 @@ h2 {
 	}
 }
 .copyright {
-	grid-column: 1 / 3;
 	margin-top: 40px;
 	font-size: 0.8em;
 	color: white;
@@ -342,6 +357,7 @@ h2 {
 	margin-left: 0px;
 	display: flex;
 	justify-content: center;
+	width: 90%;
 	
 }
 .contacto-uno {
@@ -366,5 +382,8 @@ h2 {
 		}
 	}
 
+.footerbs {
+	border-top: 1px white solid;
+}
 
 /* -------------------- */
