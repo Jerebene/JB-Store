@@ -297,7 +297,7 @@ h2 {
 
 .copyright {
   margin-top: 40px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: white;
   display: flex;
   justify-content: center; }
@@ -470,11 +470,15 @@ h2 {
   text-align: center; }
 
 .texto-vender-uno {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white; }
 
+.img-vender {
+  display: flex;
+  justify-content: center; }
+
 .texto-vender {
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: white; }
 
 .prim-fila {
@@ -638,9 +642,7 @@ ul {
   .redes {
     margin: 0px 0px 0px 110px; }
   .copyright {
-    font-size: 0.6em;
-    margin: 40px 0px 0px 25px;
-    width: 300px; }
+    font-size: 0.6em; }
   .texto-vender-uno {
     font-size: 0.7em;
     color: white;
@@ -657,9 +659,6 @@ ul {
 
 .logos-footer {
   margin-right: 0px; }
-
-.copyright p {
-  margin-right: 20px; }
 
 .redes {
   margin-left: 32px; }
